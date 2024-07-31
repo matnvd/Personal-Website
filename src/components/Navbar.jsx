@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useScrollPosition } from "../hooks/useScrollPosition";
-import useResizeObserver from "../hooks/useResizeObserver";
-import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import Navbar from "react-bootstrap/Navbar";
+import { about, experiences, mainBody, repos } from "../editable-stuff/config.js";
+import useResizeObserver from "../hooks/useResizeObserver";
+import { useScrollPosition } from "../hooks/useScrollPosition";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -44,11 +44,14 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
-          {/* {
-            <NavLink className="nav-item lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
-            </NavLink>
-          } */}
+          {
+            <NavLink
+            className="nav-items lead"
+            href={process.env.PUBLIC_URL + "/#blogs"}
+          >
+            Blogs
+          </NavLink>
+          }
           {repos.show && (
 
             <NavLink
@@ -67,18 +70,18 @@ const Navigation = React.forwardRef((props, ref) => {
           </NavLink>
           {about.show && (
             <NavLink
-              className="nav-item lead"
+              className="nav-items lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
               About
             </NavLink>
           )}
-          {skills.show && (
+          {experiences.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
+              href={process.env.PUBLIC_URL + "/#experiences"}
             >
-              Skills
+              Experiences
             </NavLink>
           )}
         </Nav>
