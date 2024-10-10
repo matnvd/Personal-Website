@@ -20,7 +20,7 @@ const Footer = (props) => {
         using <i className="fab fa-react" /> */}
         <p>
           <small className="text-muted">
-            Project code is open source and credits to Hashir Shoaeb. Feel free to email me at
+            Project code is open source and drew inspiration from Hashir Shoaeb. Feel free to email me at
           </small>
           <a className="text-decoration-none" href="mailto:mathiasnvd07@gmail.com"> mathiasnvd07@gmail.com</a>.
         </p>

@@ -1,3 +1,5 @@
+import bloglist from "./blog";
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -5,32 +7,33 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#7b00ff, #000000", //"#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Mathias",
   middleName: "",
   lastName: "Nguyen-Van-Duong",
-  message: " A STEM-focused high school student-athlete with an interest in engineering. ",
+  message: " | Student | Athlete | Rower | Climber | Reverse-engineer | Programmer | ",
   icons: [
+    // using font awesome icons
+    {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/mathias-nguyen-van-duong-a189522aa/",
+    },
     {
       image: "fa-github",
       url: "https://github.com/matnvd",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "https://www.facebook.com/hashirshoaeb",
-    // },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/mathiasnvd/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/mathias-nguyen-van-duong-a189522aa/",
+      image: "fa-youtube",
+      url: "https://youtube.com/@mathiasnvd",
     },
-    // {
-    //   image: "fa-twitter",
-    //   url: "https://www.twitter.com/hashirshoaeb/",
-    // },
+    {
+      image: "fa-youtube-square", //square-youtube?
+      url: "https://youtube.com/@Howdareyou77",
+    },
   ],
 };
 
@@ -51,7 +54,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/headshot_business_pfp_profile.jpg"),
+  imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
   message:
     "My name is Mathias Nguyen-Van-Duong.",
@@ -79,12 +82,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/headshot_business_pfp_profile.jpg"), 
+      img: require("../editable-stuff/headshot_launchx_pfp.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/headshot_business_pfp_profile.jpg"), 
+      img: require("../editable-stuff/headshot_launchx_pfp.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -142,7 +145,7 @@ const experiences = {
     {
       role: 'Front-End Developer',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'May 2017 – May 2020',
     },
   ]
 }
@@ -150,6 +153,8 @@ const experiences = {
 // Blog SECTION
 const blog = {
   show: true,
+  heading: "Blogs",
+  data: bloglist
 };
 
 export { about, blog, experiences, getInTouch, leadership, mainBody, navBar, repos, skills };

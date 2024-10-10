@@ -4,6 +4,7 @@ import { Jumbotron } from "./migration";
 
 const Leadership = ({ heading, message, img, imageSize }) => {
   return (
+    <section id="experiences" className="section">
     <Jumbotron
       id="leadership"
       className="m-0"
@@ -39,6 +40,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
         </div>
       </div>
     </Jumbotron>
+    </section>
   );
 };
 

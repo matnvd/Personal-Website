@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { about, experiences, mainBody, repos } from "../editable-stuff/config.js";
+import { about, experiences, leadership, mainBody, repos } from "../editable-stuff/config.js";
 import useResizeObserver from "../hooks/useResizeObserver";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import { NavLink } from "./home/migration";
@@ -52,14 +52,6 @@ const Navigation = React.forwardRef((props, ref) => {
             Blogs
           </NavLink>
           }
-          {repos.show && (
-
-            <NavLink
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </NavLink>
-          )}
           <NavLink
             className="nav-item lead"
             href={about.resume}
@@ -82,6 +74,22 @@ const Navigation = React.forwardRef((props, ref) => {
               href={process.env.PUBLIC_URL + "/#experiences"}
             >
               Experiences
+            </NavLink>
+          )}
+          {repos.show && (
+
+            <NavLink
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              Projects
+            </NavLink>
+          )}
+          {leadership.show && (
+
+            <NavLink
+              href={process.env.PUBLIC_URL + "/#leadership"}
+            >
+              Leadership
             </NavLink>
           )}
         </Nav>
