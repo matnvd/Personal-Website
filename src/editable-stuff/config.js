@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Mathias",
   middleName: "",
   lastName: "Nguyen-Van-Duong",
-  message: " | Student | Athlete | Rower | Climber | Reverse-engineer | Programmer | ",
+  message: " | Student | Rower | Climber | Engineer | Programmer | ",
   icons: [
     // using font awesome icons
     {
@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
   message:
-    "My name is Mathias Nguyen-Van-Duong.",
+    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
