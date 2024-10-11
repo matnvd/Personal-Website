@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.fe927caf.css",
-    "main.js": "/static/js/main.65477f7d.js",
+    "main.js": "/static/js/main.bbd99884.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
-    "static/media/uslec_logo.png": "/static/media/uslec_logo.b0a9521fe89fabd0a545.png",
     "static/media/headshot_launchx_pfp.jpg": "/static/media/headshot_launchx_pfp.da08d9a0b0c21d560b60.jpg",
+    "static/media/uslec.png": "/static/media/uslec.d41092e60d7bfd635925.png",
     "static/media/resume.pdf": "/static/media/resume.d597d4adff0e2dbba14b.pdf",
-    "static/media/mathnasium.png": "/static/media/mathnasium.c8c601940e14755508b0.png",
+    "static/media/mathnasium.png": "/static/media/mathnasium.2f1554e43fcdfa770cd2.png",
     "index.html": "/index.html",
     "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
-    "main.65477f7d.js.map": "/static/js/main.65477f7d.js.map",
+    "main.bbd99884.js.map": "/static/js/main.bbd99884.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.65477f7d.js"
+    "static/js/main.bbd99884.js"
   ]
 }
