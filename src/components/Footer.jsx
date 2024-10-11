@@ -19,10 +19,10 @@ const Footer = (props) => {
         </a>{" "}
         using <i className="fab fa-react" /> */}
         <p>
-          <small className="text-muted">
-            Project code is open source and drew inspiration from Hashir Shoaeb. Feel free to email me at
-          </small>
-          <a className="text-decoration-none" href="mailto:mathiasnvd07@gmail.com"> mathiasnvd07@gmail.com</a>.
+          <small className="text-muted">Project code is open source. Feel free to fork and make your own version from </small>
+          <a className="text-muted" href="https://github.com/matnvd/home">github.com/matnvd/home</a>.<br></br>
+          <small className="text-muted">Email me at </small>
+          <a className="text-muted" href="mailto:mathiasnvd07@gmail.com">mathiasnvd07@gmail.com</a>!
         </p>
         
       </Container>
