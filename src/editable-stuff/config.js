@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
   message:
-    "v1.3, Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
+    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -78,17 +78,17 @@ const repos = {
 const leadership = {
   show: true,
   heading: "Leadership",
-  message: "v1.4",
-  // messages: [
-  //   {message: "Ridgewood Crew: Bow/Coxswain"},
-  //   {message: "Scouts: Anticipated Eagle Scout"},
-  //   {message: "USLEC: Ambassador"},
-  //   {message: "Special Needs Siblings and Friends Club: Co-president"},
-  //   {message: "French Club: President"},
-  //   {message: "Applied Engineering Club: Co-president/Team Leader"},
-  //   {message: "Computer Club: President"},
-  //   {message: "National History Day Club: Co-president"},
-  // ],
+  // message: "v1.4 message",
+  message: [
+    "Ridgewood Crew: Bow/Coxswain",
+    "Scouts: Anticipated Eagle Scout",
+    "USLEC: Ambassador",
+    "Special Needs Siblings and Friends Club: Co-president",
+    "French Club: President",
+    "Applied Engineering Club: Co-president/Team Leader",
+    "Computer Club: President",
+    "National History Day Club: Co-president",
+  ],
   images: [
     { 
       img: require("../assets/img/crew_leadership.png"), 
