@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
   message:
-    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
+    "2.4 Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -81,8 +81,8 @@ const leadership = {
   // message: "v1.4 message",
   message: [
     "Ridgewood Crew: Bow/Coxswain",
-    "Scouts: Anticipated Eagle Scout",
-    "USLEC: Ambassador",
+    "Boy Scouts: Anticipated Eagle Scout/SPL",
+    "United States Law Enforcement Coalition: Ambassador",
     "Special Needs Siblings and Friends Club: Co-president",
     "French Club: President",
     "Applied Engineering Club: Co-president/Team Leader",
@@ -91,14 +91,44 @@ const leadership = {
   ],
   images: [
     { 
-      img: require("../assets/img/crew_leadership.png"), 
-      label: "Ridgewood Crew: ", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/crew_leader.png"), 
+      label: "Ridgewood Crew [2021 - Pres.]", 
+      paragraph: "Coxing our JV 8+ last year; placed 4th at Garden State Scholastic Championship" 
     },
     { 
-      img: require("../assets/img/uslec_leadership.png"), 
-      label: "USLEC", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/scout_leader.png"), 
+      label: "Boy Scouts [2014 - Pres.]", 
+      paragraph: "Working on my Eagle Scout Project for the New Day Program with a couple other scouts" 
+    },
+    { 
+      img: require("../assets/img/uslec_leader.png"), 
+      label: "United States Law Enforcement Coalition [2023 - Pres]", 
+      paragraph: "Giving a speech as a USLEC Intern where I would lead as an Ambassador later" 
+    },
+    { 
+      img: require("../assets/img/special_needs_leader.png"), 
+      label: "Special Needs Siblings and Friends Club [2022 - Pres]", 
+      paragraph: "Our World Down Syndrome Day event last year (my poster is in the back!)" 
+    },
+    { 
+      img: require("../assets/img/applied_engineering_leader.png"), 
+      label: "Applied Engineering Club [2021 - Pres]", 
+      paragraph: "Our NJ STEAM Tank Regionals mentor meeting with my InfoBand team" 
+    },
+    { 
+      img: require("../assets/img/french_club_leader.png"), 
+      label: "French Club [2022 - Pres]", 
+      paragraph: "Discussing and preparing our field trip to the Montclair State University French Day" 
+    },
+    { 
+      img: require("../assets/img/computer_club_leader.png"), 
+      label: "Computer Club [2021 - Pres]", 
+      paragraph: "Leading a meeting with a jam about encoding particle physics in a simple Replit" 
+    },
+    { 
+      img: require("../assets/img/nhd_leader.png"), 
+      label: "National History Day Club [2023 - Pres]", 
+      paragraph: "My NHD YouTube video entry that I would present later at Monmouth University" 
     },
   ],
   imageSize: {
@@ -117,7 +147,7 @@ const experiences = {
       date: 'August 2023 – Present',
     },
     {
-      role: 'Mathnasium | Math Instructor',
+      role: 'Mathnasium: Math Instructor',
       companylogo: require('../assets/img/mathnasium.png'),
       date: 'September 2024 – Present',
     },
