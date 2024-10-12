@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
   message:
-    "2.4 Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
+    "3.6 Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -70,8 +70,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "matnvd", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: [],
+  reposLength: 2,
+  // specificRepos: ["Row-City", "bluebubbles-app"],
 };
 
 // Leadership SECTION
