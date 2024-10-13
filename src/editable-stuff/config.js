@@ -112,14 +112,14 @@ const leadership = {
       paragraph: "Our World Down Syndrome Day event last year (my poster is in the back!)" 
     },
     { 
-      img: require("../assets/img/applied_engineering_leader.png"), 
-      label: "Applied Engineering Club [2021 - Present]", 
-      paragraph: "Our NJ STEAM Tank Regionals mentor meeting with my InfoBand team" 
-    },
-    { 
       img: require("../assets/img/french_club_leader.png"), 
       label: "French Club [2022 - Present]", 
       paragraph: "Discussing and preparing our field trip to the Montclair State University French Day" 
+    },
+    { 
+      img: require("../assets/img/applied_engineering_leader.png"), 
+      label: "Applied Engineering Club [2021 - Present]", 
+      paragraph: "Our NJ STEAM Tank Regionals mentor meeting with my InfoBand team" 
     },
     { 
       img: require("../assets/img/computer_club_leader.png"), 
@@ -155,10 +155,6 @@ const experiences = {
   ]
 }
 
-
-
-
-
 // Blog SECTION
 const blog = {
   show: true,
@@ -169,7 +165,7 @@ const blog = {
 //WEB CLIPPINGS SECTION
 const webClippings = {
   show: true,
-  heading: "Web Clippings",
+  heading: "Media Highlights",
 };
 
 // SKILLS SECTION

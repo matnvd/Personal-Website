@@ -90,9 +90,9 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           {webClippings.show && (
             <NavLink
-              href={process.env.PUBLIC_URL + "/#webclippings"}
+              href={process.env.PUBLIC_URL + "/#mediahighlights"}
             >
-              Web Clippings
+              Media Highlights
             </NavLink>
           )}
         </Nav>
