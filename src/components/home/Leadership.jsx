@@ -29,8 +29,8 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     height={imageSize.height}
                   />
                   <Carousel.Caption>
-                    <h3>{value.label}</h3>
-                    <p>
+                    <h3 className="text_border">{value.label}</h3>
+                    <p className="text_border">
                       {value.paragraph}
                     </p>
                   </Carousel.Caption>
