@@ -12,8 +12,8 @@ const Leadership = ({ heading, message, img, imageSize }) => {
     >
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
-        <div className="col-md-5">
-          {message.map((message) => <p className="lead">{message}</p>)}
+        <div className="col-md-5 container_vertical_align">
+          {message.map((message) => <p className="lead text-left">{message}</p>)}
           {/* <p className="lead">{message}</p> */}
         </div>
         <div className="col-md-7">

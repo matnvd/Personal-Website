@@ -52,6 +52,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-center">{message}</p>
           {resume && (
             <p className="lead text-center">
+              {/* btn-outline-dark */}
               <a
                 className="btn btn-outline-dark btn-lg"
                 href={resume}
@@ -60,7 +61,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 role="button"
                 aria-label="Resume/CV"
               >
-                Resume
+                Résumé
               </a>
             </p>
           )}

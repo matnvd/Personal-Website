@@ -80,14 +80,14 @@ const leadership = {
   heading: "Leadership",
   // message: "v1.4 message",
   message: [
-    "Ridgewood Crew: Bow/Coxswain",
-    "Boy Scouts: Anticipated Eagle Scout/SPL",
-    "United States Law Enforcement Coalition: Ambassador",
-    "Special Needs Siblings and Friends Club: Co-president",
-    "French Club: President",
-    "Applied Engineering Club: Co-president/Team Leader",
-    "Computer Club: President",
-    "National History Day Club: Co-president",
+    "Ridgewood Crew | Bow/Coxswain",
+    "Boy Scouts | Anticipated Eagle Scout/SPL",
+    "United States Law Enforcement Coalition | Ambassador",
+    "Special Needs Siblings and Friends Club | Co-president",
+    "French Club | President",
+    "Applied Engineering Club | Co-president/Team Leader",
+    "Computer Club | President",
+    "National History Day Club | Co-president",
   ],
   images: [
     { 

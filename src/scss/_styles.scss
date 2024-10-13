@@ -1,23 +1,30 @@
-$card-outline-color: #7b00ff; // Define your custom outline color
+$card-outline-color: #7b00ff7c; // Define your custom outline color infoband: #89c3a2
 
 .custom-card {
-  border: 3px solid $card-outline-color; // Set the outline color
-  border-radius: 0.5rem; // Ensure rounded corners match Bootstrap's card
-  
-  &.shadow-lg {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // You can keep the existing shadow if you want
-  }
+    border: 3px solid $card-outline-color; // Set the outline color
+    border-radius: 0.5rem; // Ensure rounded corners match Bootstrap's card
+
+    &.shadow-lg {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // You can keep the existing shadow if you want
+    }
 }
 
-$custom-outline-color: #89c3a2;
+$custom-outline-color: #7b00ff;
 
 .custom-outline-btn {
     border: 2px solid $custom-outline-color; // Set custom outline color
     color: $custom-outline-color; // Text color
     background-color: transparent; // Background color
-  
+
     &:hover {
-      background-color: $custom-outline-color; // Change background on hover
-      color: #fff; // Change text color on hover
+        background-color: $custom-outline-color; // Change background on hover
+        color: #fff; // Change text color on hover
     }
-  }
+}
+
+.container_vertical_align {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
