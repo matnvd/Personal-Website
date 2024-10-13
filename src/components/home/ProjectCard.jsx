@@ -4,19 +4,14 @@ import Col from "react-bootstrap/Col";
 import Skeleton from "react-loading-skeleton";
 
 //manual projectcards (if u want auto check hashir)
-const ProjectCard = ({name, description, svn_url}) => {
-  // const {
-  //   name,
-  //   description,
-  //   svn_url,
-  // } = value;
+const ProjectCard = ({name, description, svn_url, date, linkName}) => {
   return (
     <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+      <Card className={(name === "InfoBand" ? "custom-" : "") + "card shadow-lg p-3 mb-5 bg-white rounded"}>
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
-          {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+          {svn_url ? <CardButtons name={name} svn_url={svn_url} linkName={linkName} /> : <Skeleton count={2} />}
           <hr />
           {/* {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -24,7 +19,7 @@ const ProjectCard = ({name, description, svn_url}) => {
             <Skeleton count={3} />
           )} */}
           {name ? (
-            <CardFooter />
+            <CardFooter date={date}/>
           ) : (
             <Skeleton />
           )}
@@ -34,17 +29,17 @@ const ProjectCard = ({name, description, svn_url}) => {
   );
 };
 
-const CardButtons = ({ svn_url }) => {
+const CardButtons = ({name, svn_url, linkName}) => {
   return (
     <div className="d-grid gap-2 d-md-block">
       {/* <a
         href={`${svn_url}/archive/master.zip`}
         className="btn btn-outline-secondary mx-2"
       >
-        <i className="fab fa-github" /> Clone Project
+        <i className="fab fa-github" /> Clone Project custom-outline-btn
       </a> */}
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
-        <i className="fab fa-github" /> Repo
+      <a href={svn_url} target=" _blank" className={"btn "+ (name === "InfoBand" ? "custom-outline-btn" : "btn-outline-secondary") + " mx-2"}>
+        <i className="fa fa-link" /> {linkName}
       </a>
     </div>
   );
@@ -97,7 +92,7 @@ const CardButtons = ({ svn_url }) => {
 //   );
 // };
 
-const CardFooter = () => {
+const CardFooter = ({date}) => {
   return (
     <p className="card-text">
       {/*<a
@@ -110,7 +105,7 @@ const CardFooter = () => {
           <span className="badge badge-dark">{star_count}</span>
         </span> }
       </a>*/}
-      <small className="text-muted">Updated on August 3, 2024</small>
+      <small className="text-muted">Updated on {date}</small>
     </p>
   );
 };
