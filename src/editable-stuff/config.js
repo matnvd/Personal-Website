@@ -56,6 +56,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/headshot_launchx_pfp.jpg"),
   imageSize: 375,
+  // update the index.html description if u update the about message below
   message:
     "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
   resume: require("../editable-stuff/resume.pdf"),
@@ -165,6 +166,12 @@ const blog = {
   data: bloglist
 };
 
+//WEB CLIPPINGS SECTION
+const webClippings = {
+  show: true,
+  heading: "Web Clippings",
+};
+
 // SKILLS SECTION
 const skills = {
   show: false,
@@ -200,5 +207,5 @@ const getInTouch = {
   email: "mathiasnvd07@gmail.com",
 };
 
-export { about, blog, experiences, getInTouch, leadership, mainBody, navBar, repos, skills };
+export { about, blog, experiences, getInTouch, leadership, mainBody, navBar, repos, skills, webClippings };
 

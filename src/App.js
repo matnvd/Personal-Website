@@ -8,6 +8,8 @@ import Leadership from "./components/home/Leadership.jsx";
 import MainBody from "./components/home/MainBody";
 import Project from "./components/home/Project";
 import Skills from "./components/home/Skills";
+import WebClippings from "./components/home/WebClippings";
+
 import {
   about,
   experiences,
@@ -16,7 +18,8 @@ import {
   mainBody,
   navBar,
   repos,
-  skills
+  skills,
+  webClippings,
 } from "./editable-stuff/config.js";
 
 import Experience from "./components/home/Experience";
@@ -61,6 +64,10 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
+      {webClippings.show && (
+        <WebClippings heading={webClippings.heading}
+        />
+      )}
       {skills.show && (
         <Skills
           heading={skills.heading}
