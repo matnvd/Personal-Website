@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.39f18272.css",
-    "main.js": "/static/js/main.dfd0aedd.js",
+    "main.js": "/static/js/main.6b22f772.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/applied_engineering_leader.png": "/static/media/applied_engineering_leader.9c1705e08f4f583b1d3b.png",
     "static/media/special_needs_leader.png": "/static/media/special_needs_leader.aa150607305e07f10071.png",
@@ -12,16 +12,16 @@
     "static/media/french_club_leader.png": "/static/media/french_club_leader.adf8f18a09101fcbe2f6.png",
     "static/media/computer_club_leader.png": "/static/media/computer_club_leader.e351fc038e30de2dbeba.png",
     "static/media/headshot_launchx_pfp.jpg": "/static/media/headshot_launchx_pfp.da08d9a0b0c21d560b60.jpg",
+    "static/media/resume_10_22_24.pdf": "/static/media/resume_10_22_24.494d748bbcff5df75b7d.pdf",
     "static/media/uslec.png": "/static/media/uslec.7a8bcaedc3a68ea15947.png",
-    "static/media/resume.pdf": "/static/media/resume.1943e524368fd7871996.pdf",
     "static/media/mathnasium.png": "/static/media/mathnasium.db37f673a08b1a1ab891.png",
     "index.html": "/index.html",
     "main.39f18272.css.map": "/static/css/main.39f18272.css.map",
-    "main.dfd0aedd.js.map": "/static/js/main.dfd0aedd.js.map",
+    "main.6b22f772.js.map": "/static/js/main.6b22f772.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39f18272.css",
-    "static/js/main.dfd0aedd.js"
+    "static/js/main.6b22f772.js"
   ]
 }
