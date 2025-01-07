@@ -24,7 +24,7 @@ const WebClippings = ({ heading}) => {
                         <div class = "newday"> {/*newdayprogram scouts*/}
                             <InstagramEmbed url="https://www.instagram.com/p/C-wAAmQJfg2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="captioned />
                         </div>
-                        <div class = "aime"> {/*rhs AIME*/}
+                        <div class = "aime"> {/*rhs AIME, fb: https://www.facebook.com/RidgewoodPublicSchools/posts/pfbid0codtGH3dgUM7wwNXjSrR2QaxiTkmCMEENu1Fp1RUnBqXYcUAh1dnDxSzXhg8enAGl*/}
                             <InstagramEmbed url="https://www.instagram.com/p/C2lBsVdvHo4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="captioned />
                         </div>
                         <div class = "nmsqt"> {/*rhs nmsqt (there's fb too)*/}

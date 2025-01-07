@@ -58,8 +58,8 @@ const about = {
   imageSize: 375,
   // update the index.html description if u update the about message below
   message:
-    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rowing, French, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rower, student, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
+  resume: require("../editable-stuff/temp_resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -82,13 +82,13 @@ const leadership = {
   // message: "v1.4 message",
   message: [
     "Ridgewood Crew | Bow/Coxswain",
-    "Boy Scouts | Anticipated Eagle Scout/SPL",
-    "United States Law Enforcement Coalition | Ambassador",
+    "Applied Engineering Club | Co-president/Team Leader",
+    "Boy Scouts | [Pending] Eagle Scout/ASPL",
     "Special Needs Siblings and Friends Club | Co-president",
     "French Club | President",
-    "Applied Engineering Club | Co-president/Team Leader",
     "Computer Club | President",
     "National History Day Club | Co-president",
+    "United States Law Enforcement Coalition | Ambassador",
   ],
   images: [
     { 
@@ -97,14 +97,14 @@ const leadership = {
       paragraph: "Coxing our JV 8+ last year; placed 4th at Garden State Scholastic Championship" 
     },
     { 
+      img: require("../assets/img/applied_engineering_leader.png"), 
+      label: "Applied Engineering Club [2021 - Present]", 
+      paragraph: "Our NJ STEAM Tank Regionals mentor meeting with my InfoBand team" 
+    },
+    { 
       img: require("../assets/img/scout_leader.png"), 
       label: "Boy Scouts [2014 - Present]", 
       paragraph: "Working on my Eagle Scout Project for the New Day Program with a couple other scouts" 
-    },
-    { 
-      img: require("../assets/img/uslec_leader.png"), 
-      label: "United States Law Enforcement Coalition [2023 - Present]", 
-      paragraph: "Giving a speech as a USLEC Intern where I would lead as an Ambassador later" 
     },
     { 
       img: require("../assets/img/special_needs_leader.png"), 
@@ -113,13 +113,8 @@ const leadership = {
     },
     { 
       img: require("../assets/img/french_club_leader.png"), 
-      label: "French Club [2022 - Present]", 
+      label: "French Club [2021 - Present]", 
       paragraph: "Discussing and preparing our field trip to the Montclair State University French Day" 
-    },
-    { 
-      img: require("../assets/img/applied_engineering_leader.png"), 
-      label: "Applied Engineering Club [2021 - Present]", 
-      paragraph: "Our NJ STEAM Tank Regionals mentor meeting with my InfoBand team" 
     },
     { 
       img: require("../assets/img/computer_club_leader.png"), 
@@ -129,7 +124,12 @@ const leadership = {
     { 
       img: require("../assets/img/nhd_leader.png"), 
       label: "National History Day Club [2023 - Present]", 
-      paragraph: "My NHD YouTube video entry that I would present later at Monmouth University" 
+      paragraph: "My NHD YouTube video entry that I presented at Regionals at Monmouth University" 
+    },
+    { 
+      img: require("../assets/img/uslec_leader.png"), 
+      label: "United States Law Enforcement Coalition [2023 - Present]", 
+      paragraph: "Giving a speech as a USLEC Intern where I would lead as an Ambassador later" 
     },
   ],
   imageSize: {
