@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Mathias",
   middleName: "",
   lastName: "Nguyen-Van-Duong",
-  message: " | Student | Rower | Climber | Engineer | Programmer | ",
+  message: "| Rower | Climber | Eagle Scout | Engineer | Programmer | Valedictorian |",
   icons: [
     // using font awesome icons
     {
@@ -59,7 +59,7 @@ const about = {
   // update the index.html description if u update the about message below
   message:
     "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rower, student, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
-  resume: require("../editable-stuff/temp_resume.pdf"),
+  resume: require("../editable-stuff/resume_02_10_25.pdf"),
 };
 
 // PROJECTS SECTION
@@ -83,7 +83,7 @@ const leadership = {
   message: [
     "Ridgewood Crew | Bow/Coxswain",
     "Applied Engineering Club | Co-president/Team Leader",
-    "Boy Scouts | [Pending] Eagle Scout/ASPL",
+    "Boy Scouts | Eagle Scout/SPL",
     "Special Needs Siblings and Friends Club | Co-president",
     "French Club | President",
     "Computer Club | President",
