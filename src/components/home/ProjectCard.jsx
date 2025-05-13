@@ -7,7 +7,7 @@ import Skeleton from "react-loading-skeleton";
 const ProjectCard = ({name, description, svn_url, date, linkName}) => {
   return (
     <Col md={6}>
-      <Card className={(name === "InfoBand" ? "custom-" : "") + "card shadow-lg p-3 mb-5 bg-white rounded"}>
+      <Card className={(name === "[highlighted project]" ? "custom-" : "") + "card shadow-lg p-3 mb-5 bg-white rounded"}>
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
@@ -38,7 +38,7 @@ const CardButtons = ({name, svn_url, linkName}) => {
       >
         <i className="fab fa-github" /> Clone Project custom-outline-btn
       </a> */}
-      <a href={svn_url} target=" _blank" className={"btn "+ (name === "InfoBand" ? "custom-outline-btn" : "btn-outline-secondary") + " mx-2"}>
+      <a href={svn_url} target=" _blank" className={"btn "+ (name === "[highlighted button name]" ? "custom-outline-btn" : "btn-outline-secondary") + " mx-2"}>
         <i className="fa fa-link" /> {linkName}
       </a>
     </div>

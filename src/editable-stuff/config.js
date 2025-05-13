@@ -11,7 +11,7 @@ const mainBody = {
   firstName: "Mathias",
   middleName: "",
   lastName: "Nguyen-Van-Duong",
-  message: "| Rower | Climber | Eagle Scout | Engineer | Programmer | Valedictorian |",
+  message: "Operations Research and Financial Engineering at Princeton",
   icons: [
     // using font awesome icons
     {
@@ -26,14 +26,14 @@ const mainBody = {
       image: "fa-instagram",
       url: "https://www.instagram.com/mathiasnvd/",
     },
-    {
-      image: "fa-youtube",
-      url: "https://youtube.com/@mathiasnvd",
-    },
-    {
-      image: "fa-youtube-square", //square-youtube?
-      url: "https://youtube.com/@Howdareyou77",
-    },
+    // {
+    //   image: "fa-youtube",
+    //   url: "https://youtube.com/@mathiasnvd",
+    // },
+    // {
+    //   image: "fa-youtube-square", //square-youtube?
+    //   url: "https://youtube.com/@Howdareyou77",
+    // },
   ],
 };
 
@@ -58,8 +58,8 @@ const about = {
   imageSize: 375,
   // update the index.html description if u update the about message below
   message:
-    "Hi I’m Mathias Nguyen-Van-Duong, a current senior at Ridgewood High School. I'm a rower, student, and tech enthusiast who has mixed passions in engineering, computer science, and linguistics who happened to have some spare time and wanted to make a cool-looking website.",
-  resume: require("../editable-stuff/resume_02_10_25.pdf"),
+    "Hi I’m Mathias Nguyen-Van-Duong, an incoming freshman at Princeton University, planning on majoring in Operations Research and Financial Engineering. I'm passionate about engineering, computer science, and language but I also have interests in rowing, bouldering, and tech.",
+  resume: require("../editable-stuff/resume_05_05_25.pdf"),
 };
 
 // PROJECTS SECTION
@@ -164,7 +164,7 @@ const blog = {
 
 //WEB CLIPPINGS SECTION
 const webClippings = {
-  show: true,
+  show: false,
   heading: "Media Highlights",
 };
 

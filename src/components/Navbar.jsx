@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { about, experiences, leadership, mainBody, repos, webClippings } from "../editable-stuff/config.js";
+import { about, mainBody, repos } from "../editable-stuff/config.js";
 import useResizeObserver from "../hooks/useResizeObserver";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import { NavLink } from "./home/migration";
@@ -73,28 +73,28 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </NavLink>
           )}
-          {leadership.show && (
+          {/* {leadership.show && (
 
             <NavLink
               href={process.env.PUBLIC_URL + "/#leadership"}
             >
               Leadership
             </NavLink>
-          )}
-          {experiences.show && (
+          )} */}
+          {/* {experiences.show && (
             <NavLink
               href={process.env.PUBLIC_URL + "/#experiences"}
             >
               Experiences
             </NavLink>
-          )}
-          {webClippings.show && (
+          )} */}
+          {/* {webClippings.show && (
             <NavLink
               href={process.env.PUBLIC_URL + "/#mediahighlights"}
             >
               Media Highlights
             </NavLink>
-          )}
+          )} */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/home/AboutMe";
 import GetInTouch from "./components/home/GetInTouch.jsx";
-import Leadership from "./components/home/Leadership.jsx";
 import MainBody from "./components/home/MainBody";
 import Project from "./components/home/Project";
 import Skills from "./components/home/Skills";
@@ -12,17 +11,14 @@ import WebClippings from "./components/home/WebClippings";
 
 import {
   about,
-  experiences,
   getInTouch,
-  leadership,
   mainBody,
   navBar,
   repos,
   skills,
-  webClippings,
+  webClippings
 } from "./editable-stuff/config.js";
 
-import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -51,18 +47,18 @@ const Home = React.forwardRef((props, ref) => {
           // specfic={repos.specificRepos}
         />
       )}
-      {leadership.show && (
+      {/* {leadership.show && (
         <Leadership
           heading={leadership.heading}
           message={leadership.message}
           img={leadership.images}
           imageSize={leadership.imageSize}
         />
-      )}
+      )} */}
       {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
+        // experiences.show && (
+        //   <Experience experiences={experiences}/>
+        // )
       }
       {webClippings.show && (
         <WebClippings heading={webClippings.heading}
